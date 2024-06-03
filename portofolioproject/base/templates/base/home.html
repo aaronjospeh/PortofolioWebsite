@@ -53,7 +53,7 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="card card-body h-100">
                     <h5> Various Skillsets </h5>
                     <hr>
@@ -63,28 +63,16 @@
                 </div>
             </div>
 
-            <div class="col-md-6 h-100">
-                <div class="card card-body">
+            <div class="col-md-4 ">
+                <div class="card card-body h-100">
                     <h5> Education </h5>
                     <hr>
                     <p>Telkom University - Bandung, Indonesia (Bachelor's Degree on Software Engineering)</p>
                     <p>Salemba Adventist High School - Jakarta, Indonesia (Majoring in Mathematical Science)</p>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-8 h-100">
-                <div class="card card-body">
-                    <h5> Recent Projects </h5>
-                    <hr>
-                    <p>filler</p>
-                    <p>filler2</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 h-100">
-                <div class="card card-body">
+            <div class="col-md-4">
+                <div class="card card-body h-100">
                     <h5> Any Questions? </h5>
                     <hr>
                     <p>Feel free to Contact me through my Socials</p>
@@ -102,9 +90,116 @@
                 </div>
             </div>
         </div>
-        <br>
     </div>
-    
-
 </body>
 </html>
+
+ {% comment %} {% load static %}
+
+ <!DOCTYPE html> 
+ <html>
+ <head>
+     <title> Aaron Joseph</title>
+     <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ </head> {% endcomment %}
+
+ {% comment %}
+ <body>
+     <!-- Hero Section -->
+     <section class="hero">
+         <div class="container">
+             <h1>Welcome to my portfolio</h1>
+             <p>I'm [Your Name], a [Your Profession]</p>
+             <button>Get in touch</button>
+         </div>
+     </section>
+ 
+     <!-- About Me Section -->
+     <section class="about">
+         <div class="container">
+             <h2>About me</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+             <img src="about-me.jpg" alt="About me image">
+         </div>
+     </section>
+ 
+     <!-- Projects Section -->
+     <section class="projects">
+         <div class="container">
+             <h2>My projects</h2>
+             <ul>
+                 <li>
+                     <img src="project1.jpg" alt="Project 1 image">
+                     <h3>Project 1</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                 </li>
+                 <li>
+                     <img src="project2.jpg" alt="Project 2 image">
+                     <h3>Project 2</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                 </li>
+                 <!-- Add more projects here -->
+             </ul>
+         </div>
+     </section>
+ 
+     <!-- Contact Me Section -->
+     <section class="contact">
+         <div class="container">
+             <h2>Get in touch</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+             <ul>
+                 <li><a href="mailto:your@email.com">your@email.com</a></li>
+                 <li><a href="https://www.linkedin.com/in/yourlinkedinprofile/">LinkedIn</a></li>
+                 <!-- Add more contact links here -->
+             </ul>
+         </div>
+     </section>
+ 
+     <script src="script.js"></script>
+ </body>
+ </html>
+
+  {% endcomment %}
+
+  {% comment %} <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><span>J</span>oe.</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
+    </header>
+    <section class="home">
+        <div class="content">
+            <h2>Hi, I'm <span>Joe Greyson</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse totam provident voluptas similique.
+                Impedit incidunt atque recusandae rem quam.</p>
+            <div class="btn-group">
+                <a href="#">Hire Me</a>
+                <a href="#">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html> {% endcomment %}
